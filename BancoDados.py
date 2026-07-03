@@ -12,6 +12,6 @@ cursor.execute('''CREATE TABLE IF NOT EXISTS produtos (
         estoque   INTEGER NOT NULL DEFAULT 0 )
 ''')
 
-conexao.commit()#salva as auterações feitas no banco de dados
+conexao.commit()  # salva as alterações feitas no banco de dados
 conexao.close()
 print('Banco de dados criado com sucesso!')
